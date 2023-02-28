@@ -182,6 +182,113 @@
           "type": "textarea"
         }
       ]
+    },
+    {
+    "postmatch": {
+      "Driver Skill": {
+        "code":"ds",
+        "title": "Driver Skill",
+        "type":"radio",
+        "choices":{
+          "1":"Not Effective<br>",
+          "2":"Average<br>",
+          "3":"Effective<br>",
+          "4":"Very Effective<br>",
+          "x":"Not Observed"
+        },
+        "defaultValue":"x"
+      },
+      "Speed Rating": {
+        "code":"sr",
+        "title": "Speed Rating",
+        "type":"radio",
+        "choices":{
+          "1":"1 (slow)<br>",
+          "2":"2<br>",
+          "3":"3<br>",
+          "4":"4<br>",
+          "5":"5 (fast)"
+        },
+        "defaultValue":"3"
+      },
+      "Intake Rating": {
+        "code":"ir",
+        "title": "Intake Rating",
+        "type":"radio",
+        "choices":{
+          "0":"Did not intake<br>",
+          "1":"Below Average<br>",
+          "2":"Average<br>",
+          "3":"Good<br>",
+          "4":"Excellent<br>",
+          "x":"Not Observed"
+        },
+        "defaultValue":"x"
+      },
+      "Delivery Rating": {
+        "code":"shr",
+        "title": "Shooter Rating",
+        "type":"radio",
+        "choices":{
+          "0":"Did not deliver<br>",
+          "1":"Below Average<br>",
+          "2":"Average<br>",
+          "3":"Fast, but inaccurate<br>",
+          "4":"Accurate, but slow<br>",
+          "5":"Excellent<br>",
+          "x":"Not Observed"
+        },
+        "defaultValue":"x"
+      },
+      "Defense Rating": {
+        "code":"dr",
+        "title": "Defense Rating",
+        "type":"radio",
+        "choices":{
+          "1":"Below Average<br>",
+          "2":"Average<br>",
+          "3":"Good<br>",
+          "4":"Excellent<br>",
+          "5":"Did not play defense"
+        },
+        "defaultValue":"5"
+      },
+       "Strategically moved cargo across field for teammates to place?": {
+        "code":"hc",
+        "title": "Cargo Mover",
+        "type":"bool"
+      },
+       "Swerve drive?": {
+        "code":"sd",
+        "title": "Swerve drive?",
+        "type":"bool"
+      },
+      "Died/Tipped": {
+        "code":"d",
+        "title": "Died/Tipped",
+        "type":"bool"
+      },
+      "Comments": {
+        "code":"co",
+        "title": "Comments",
+        "type":"text",
+        "size":15,
+        "maxSize":50
+      },
+      "Confidence Rating": {
+        "code":"cnf",
+        "title": "Confidence Rating",
+        "type":"radio",
+        "choices":{
+          "0":"TRASH<br>",
+          "1":"Not Confident<br>",
+          "2":"Average<br>",
+          "3":"Confident<br>",
+          "4":"Very Confident<br>",
+          "5":"Extremely Confident"
+        },
+       "defaultValue":"2"
+      }
     }
   ]
 }
