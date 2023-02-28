@@ -104,6 +104,11 @@
           ]
         },
         {
+          "name": "Detailed Auton Strategy",
+          "type": "textarea",
+          "colspan": 3
+        },
+        {
           "name": "Can Pick Up",
           "type": "multicheckbox",
           "options": [
